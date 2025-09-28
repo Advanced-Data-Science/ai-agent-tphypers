@@ -138,9 +138,3 @@ compare_holidays <- function(countries = c("US", "DE", "JP"), year = 2024) {
 
 compare_holidays()
 
-# Relfection:
-# I have never worked with API's before so I learned a lot of the basics of what
-# they do and how they funciton here. For example, I learned about how it is 
-# best practice to have a 'respectful delay' so as to not spam the api with 
-# requests. I also learned where to expect errors and how to handle them when
-# accessing an API. 
