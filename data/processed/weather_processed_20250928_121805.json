@@ -1,0 +1,62 @@
+[
+    {
+        "city": "New York, US",
+        "collection_timestamp": "20250928_121805",
+        "source_api": "OpenWeatherMap",
+        "quality_score": 100,
+        "current_temp_c": 25.44,
+        "current_humidity_p": 64,
+        "current_wind_speed_m_s": 4.12,
+        "forecast_summary": "3-hour steps starting 2025-09-28 18:00:00"
+    },
+    {
+        "city": "London, UK",
+        "collection_timestamp": "20250928_121805",
+        "source_api": "OpenWeatherMap",
+        "quality_score": 100,
+        "current_temp_c": 14.24,
+        "current_humidity_p": 91,
+        "current_wind_speed_m_s": 2.57,
+        "forecast_summary": "3-hour steps starting 2025-09-28 18:00:00"
+    },
+    {
+        "city": "Tokyo, JP",
+        "collection_timestamp": "20250928_121805",
+        "source_api": "OpenWeatherMap",
+        "quality_score": 100,
+        "current_temp_c": 25.11,
+        "current_humidity_p": 85,
+        "current_wind_speed_m_s": 7.72,
+        "forecast_summary": "3-hour steps starting 2025-09-28 18:00:00"
+    },
+    {
+        "city": "Berlin, DE",
+        "collection_timestamp": "20250928_121805",
+        "source_api": "OpenWeatherMap",
+        "quality_score": 100,
+        "current_temp_c": 17.09,
+        "current_humidity_p": 52,
+        "current_wind_speed_m_s": 4.63,
+        "forecast_summary": "3-hour steps starting 2025-09-28 18:00:00"
+    },
+    {
+        "city": "Sydney, AU",
+        "collection_timestamp": "20250928_121805",
+        "source_api": "OpenWeatherMap",
+        "quality_score": 100,
+        "current_temp_c": 16.59,
+        "current_humidity_p": 85,
+        "current_wind_speed_m_s": 6.69,
+        "forecast_summary": "3-hour steps starting 2025-09-28 18:00:00"
+    },
+    {
+        "city": "Rio de Janeiro, BR",
+        "collection_timestamp": "20250928_121805",
+        "source_api": "OpenWeatherMap",
+        "quality_score": 100,
+        "current_temp_c": 25.09,
+        "current_humidity_p": 50,
+        "current_wind_speed_m_s": 4.63,
+        "forecast_summary": "3-hour steps starting 2025-09-28 18:00:00"
+    }
+]

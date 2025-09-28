@@ -1,1 +1,24 @@
+{
+    "API_KEYS": {
+        "OPENWEATHERMAP_KEY": "6dff7a631dc5d42a4c97755dfb0c4bac",
+        "WEATHERAPI_KEY": "1cd02ec0e0bd45c6b91153637252809"
+    },
+    "COLLECTION_SETTINGS": {
+        "CITIES": [
+            "New York, US",
+            "London, UK",
+            "Tokyo, JP",
+            "Berlin, DE",
+            "Sydney, AU",
+            "Rio de Janeiro, BR"
+        ],
+        "API_PRIORITY": [
+            "OpenWeatherMap",
+            "WeatherAPI"
+        ],
+        "MAX_RETRIES": 3,
+        "RESPECTFUL_DELAY_SECONDS": 1.5,
+        "UNITS": "metric"
+    }
+}
 

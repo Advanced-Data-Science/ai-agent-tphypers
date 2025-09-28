@@ -1,0 +1,73 @@
+{
+    "metadata_version": "1.0",
+    "collection_timestamp": "20250928_121805",
+    "collection_settings": {
+        "CITIES": [
+            "New York, US",
+            "London, UK",
+            "Tokyo, JP",
+            "Berlin, DE",
+            "Sydney, AU",
+            "Rio de Janeiro, BR"
+        ],
+        "API_PRIORITY": [
+            "OpenWeatherMap",
+            "WeatherAPI"
+        ],
+        "MAX_RETRIES": 3,
+        "RESPECTFUL_DELAY_SECONDS": 1.5,
+        "UNITS": "metric"
+    },
+    "summary_metrics": {
+        "total_requests": 12,
+        "successful_requests": 6,
+        "failures": 0,
+        "data_points_collected": 18,
+        "owm_success": 12,
+        "wapi_success": 0,
+        "total_quality_score": 600,
+        "issues": []
+    },
+    "processed_data_schema": [
+        {
+            "field": "city",
+            "type": "string",
+            "description": "The city name used in the API call."
+        },
+        {
+            "field": "collection_timestamp",
+            "type": "string",
+            "description": "The unique timestamp for this collection run (YYYYMMDD_HHMMSS)."
+        },
+        {
+            "field": "source_api",
+            "type": "string",
+            "description": "The API that successfully provided the data (OpenWeatherMap or WeatherAPI)."
+        },
+        {
+            "field": "quality_score",
+            "type": "integer",
+            "description": "Data quality score (0-100) from the assessment step."
+        },
+        {
+            "field": "current_temp_c",
+            "type": "float",
+            "description": "Current temperature in Celsius."
+        },
+        {
+            "field": "current_humidity_p",
+            "type": "integer",
+            "description": "Current humidity percentage."
+        },
+        {
+            "field": "current_wind_speed_m_s",
+            "type": "float",
+            "description": "Current wind speed in meters per second (derived from API units)."
+        },
+        {
+            "field": "forecast_summary",
+            "type": "string",
+            "description": "Summary description of the forecast data collected."
+        }
+    ]
+}
